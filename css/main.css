@@ -30,10 +30,11 @@ section {
 
 nav ul {
     list-style: none;
+    padding: 0;
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
     border: 1px solid black;
     padding: 5px;
     margin-left: 10px;
@@ -41,4 +42,10 @@ nav li {
 
 nav a {
     text-decoration: none;
+}
+
+nav {
+    background: blue;
+    padding: 5px 10px;
+    margin-bottom: 10px;
 }
