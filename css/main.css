@@ -49,3 +49,8 @@ nav {
     padding: 5px 10px;
     margin-bottom: 10px;
 }
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
